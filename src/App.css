@@ -1,0 +1,77 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: background-color 2s;
+}
+
+#quote-box {
+  transition: 1s;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 60px 80px;
+  padding-bottom: 40px;
+}
+
+#text {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.5s;
+}
+
+#author {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  transition: 0.5s;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+#new-quote {
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+#social-buttons {
+  width: auto;
+  display: flex;
+  font-size: 30px;
+}
+
+#new-quote-icon {
+  transition: 1s;
+}
+
+#tweet-quote {
+  transition: 1s;
+}
+
+#quote-buttons {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#like-button {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: ease-out 2s;
+}
